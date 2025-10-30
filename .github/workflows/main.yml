@@ -2,7 +2,7 @@ name : GitHub Actions Demo
 on : push 
 jobs: 
  Explore-GitHub-Actions:
-  runs-on: ubuntulatest
+  runs-on: ubuntu-latest
   steps:
   - name: Print The Triggering Event
     run: echo " The Job Was Triggered By ${{ github.eventname }}."
